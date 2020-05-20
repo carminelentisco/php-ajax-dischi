@@ -45,7 +45,8 @@
         ],
         [
             'album_poster' => 'php/assets-database/the-slow-rush.png',
-            'album_title' => 'TTame Impala',
+            'album_title' => 'The Slow Rush',
+            'album_author' => 'TTame Impala',
             'albumm_year' => '2020',
         ],
         [

@@ -3,3 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: $body_background-color;
+}

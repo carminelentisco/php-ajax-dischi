@@ -1,4 +1,49 @@
-.poster {
-    width: 100px;
-    height: 100px;
+/************************************************
+*                      MAIN                     *
+************************************************/
+
+.album__container {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .album {
+        padding: 20px;
+        width: calc(100%/ 4);
+        margin: 0 50px 30px 0;
+        background-color: $album_background;
+    }
+
+    .album__image {
+        @include margin_b-10;
+
+        .poster {
+            width: 100%;
+        }
+    }
+    
+    .album__info {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h3 {
+            color: $album_title-color;
+            @include margin_b-10;
+        }
+        
+        .album__author {
+            color: $album_author-color;
+            @include margin_b-10;
+        }
+
+        .album__year {
+            color: $album_year-color;
+            @include margin_b-10;
+            font-size: 13px;
+        }
+    }
 }
+

@@ -1,0 +1,13 @@
+/************************************************
+*                      HEADER                   *
+************************************************/
+
+.header__page {
+    padding: 10px 0; 
+    background-color: $header_background-color;
+
+    img {
+        height: 30px;
+        width: 30px;
+    }
+}

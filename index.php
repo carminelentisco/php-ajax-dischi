@@ -21,24 +21,23 @@
 
         <div class="album__container container">
             <?php foreach ( $albums as $album ) {?>
-
+            <!-- ALBUM -->
             <div class="album">
-                
+                <!-- ALBUM IMAGE -->
                 <div class="album__image">
                     <img class="poster" src=<?php echo $album['album_poster']?> alt="">   
                 </div>
-                
+                <!-- ALBUM INFO -->
                 <div class="album__info">
                     <h3><?php echo $album['album_title']; ?></h3>
-                    <span class="album__author"><?php echo $album['album_author']; ?></span>
+                    <small class="album__author"><?php echo $album['album_author']; ?></small>
                     <span class="album__year"><?php echo $album['albumm_year']; ?></span>
-                </div>
-                
+                </div>      
             </div>
-
             <?php } ?>
         </div>
 
     </main>
+
 </body>
 </html>

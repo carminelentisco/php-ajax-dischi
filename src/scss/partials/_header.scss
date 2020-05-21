@@ -6,6 +6,24 @@
     padding: 10px 0; 
     background-color: $header_background-color;
 
+    .header__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header__input-text {
+        padding: 5px;
+        border: none;
+        border-radius: 10px;
+        width: 150px;
+        transition: width .4s;
+
+        &:hover,
+        &:focus {
+            width:200px
+        }
+    }
+
     img {
         height: 30px;
         width: 30px;
